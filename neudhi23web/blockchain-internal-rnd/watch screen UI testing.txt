@@ -1,0 +1,16 @@
+admin pannel:-
+        AVIATOR SECTION:-
+                    LOGO-COLOUR :- white glow colour missing.
+                    SECOND - STANDARD image missing.
+
+        PALOMAR SECTION:-
+
+                    MAKER :- maker is not working and colour also
+
+main UI testing watch screen
+
+        GOTHAM SECTION :-
+
+                HANDS  AND  STYLE MAKER :-
+
+                            SENS AND SERIT :-SOLID :-  tiger colour is not working.

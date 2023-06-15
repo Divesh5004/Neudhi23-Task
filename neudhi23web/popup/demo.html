@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>popup</title>
+  <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+  <!-- filter element UI -->
+  <button class="open-button">Open Popup</button>
+  <div class="popup-overlay img">
+
+    <div class="popup-container">
+
+      <!-- <button class="close-button">Close</button> -->
+      <img class="close-button" src="./icon/close.png" alt="Icon 1">
+
+      <!-- Filter Heading -->
+
+      
+      <div class="row">
+
+        <ul class="filters">
+          <button class="filter-btn" onclick="filterSelection(`all`)">All</button>
+          <button class="filter-btn" onclick="filterSelection(`development`)">Application Development</button>
+          <button class="filter-btn" onclick="filterSelection(`qa`)">Quality Assurance</button> <br>
+          <button class="filter-btn" onclick="filterSelection(`management`)">Prod. Mgmt. and BA</button>
+          <button class="filter-btn" onclick="filterSelection(`support`)">App. Mtn. and Supp.</button>
+        </ul>
+
+      </div>
+
+
+      <!-- End of Filter Heading -->
+
+
+      <div class="main d1">
+
+      <div class="grid-container">
+
+        <div class="card development">
+          <img class="icon" src="./icon/mobileDevelopment.png" alt="Icon 1">
+          <h3 class="card-title">Mobile Development</h3>
+        </div>
+
+  
+
+        <div class="card development">
+          <img class="icon" src="./icon/frontend_icon.png" alt="Icon 2">
+          <h3 class="card-title">Front-End Development</h3>
+        </div>
+        <div class="card development">
+          <img class="icon" src="./icon/ux.png" alt="Icon 3">
+          <h3 class="card-title">UI/UX</h3>
+        </div>
+        <div class="card development">
+          <img class="icon" src="./icon/backend-development-.png" alt="Icon 3">
+          <h3 class="card-title">Back-end Development</h3>
+        </div>
+        <div class="card development">
+          <img class="icon" src="./icon/fullstackdevelopment.png" alt="Icon 3">
+          <h3 class="card-title">Full-stack Development</h3>
+        </div>
+
+        <div class="card management">
+          <img class="icon" src="./icon/roadmap.png" alt="Icon 3">
+          <h3 class="card-title">Product Roadmap</h3>
+        </div>
+        <div class="card management">
+          <img class="icon" src="./icon/management.png" alt="Icon 3">
+          <h3 class="card-title">Backlog Management</h3>
+        </div>
+        <div class="card support">
+          <img class="icon" src="./icon/demo.png" alt="Icon 3">
+          <h3 class="card-title">Demos</h3>
+        </div>
+        <div class="card support">
+          <img class="icon" src="./icon/bug.png" alt="Icon 3">
+          <h3 class="card-title">Bug Fixing</h3>
+        </div>
+        <div class="card support">
+          <img class="icon" src="./icon/support.png" alt="Icon 3">
+          <h3 class="card-title">Production Support</h3>
+        </div>
+        <div class="card support">
+          <img class="icon" src="./icon/24*7.png" alt="Icon 3">
+          <h3 class="card-title">24*7 Support</h3>
+        </div>
+
+        <div class="card qa">
+          <img class="icon" src="./icon/testing.png" alt="Icon 3">
+          <h3 class="card-title">Functional Testing</h3>
+        </div>
+        <div class="card qa">
+          <img class="icon" src="./icon/nontesting.png" alt="Icon 3">
+          <h3 class="card-title">Non-functional Testing</h3>
+        </div>
+        <div class="card qa">
+          <img class="icon" src="./icon/automation.png" alt="Icon 3">
+          <h3 class="card-title">Automation Testing</h3>
+        </div>
+
+        <div class="card management">
+          <img class="icon" src="./icon/ux.png" alt="Icon 3">
+          <h3 class="card-title">UI/UX Adding Features</h3>
+        </div>
+
+        <div class="card support">
+          <img class="icon" src="./icon/engineering.png" alt="Icon 3">
+          <h3 class="card-title">Documentation Coordination with Engineering</h3>
+        </div>
+
+        <div class="card management">
+          <img class="icon" src="./icon/growing.png" alt="Icon 3">
+          <h3 class="card-title">Feature Grooming in Software or Application</h3>
+        </div>
+
+        <div class="card support">
+          <img class="icon" src="./icon/delivery.png" alt="Icon 3">
+          <h3 class="card-title">SLA & Matrix-based Delivery</h3>
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+  </div>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./demo.js"></script>
+
+
+</body>
+</html>
